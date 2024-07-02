@@ -1,0 +1,107 @@
+.Sidenav {
+    background-color: #ffffff;
+    width: fit-content;
+    box-shadow: 0.3rem 0 0.5rem rgba(0, 0, 0, 0.1);
+    height:89.9vh;
+    flex-shrink: 1;
+}
+
+.Sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.Sidenav a:hover {
+    color: #000
+}
+.Sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20rem;
+    height: 100%;
+    overflow: auto;
+}
+
+.Sidenav .newChat {
+    border: 2px solid black;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    margin: 0 0.8rem;
+    font-weight: 550;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.Sidenav .chatRoom {
+    margin-left: 0.7rem;
+}
+
+.Sidenav ul li:first-child {
+    padding: 2rem 0;
+}
+
+/* Navbar header */
+.Sidenav .nav-header {
+    padding: 1rem 0;
+    margin: 0 1.5rem -0.8rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    background-color: white;
+}
+
+.Sidenav button {
+    border: none;
+    background-color: transparent;
+}
+
+.Sidenav .customIcon {
+    background-color: transparent;
+    width: 2rem;
+}
+
+.Sidenav .chatBoxContainer {
+    display: flex;
+    margin: 0.1rem 1rem;
+    align-items: center;
+}
+
+.Sidenav nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sidenav nav ul li .chatRooms {
+    margin-left: 0.7rem;
+}
+
+.Sidenav ul li button {
+    font-size: x-large;
+    background-color: transparent;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+/* Active links */
+.activated {
+    background-color: rgb(7, 233, 109);
+    border-radius: 1rem;
+    color: black;
+}
+
+.activated span, .activated svg {
+    color: black;
+}
+
+.deactivated {
+    background-color: transparent;
+}
